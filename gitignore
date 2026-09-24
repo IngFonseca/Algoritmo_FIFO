@@ -1,0 +1,40 @@
+# ---------- Python ----------
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+
+# ---------- Entornos virtuales ----------
+venv/
+.venv/
+env/
+
+# ---------- PyInstaller (contienen rutas locales con tu usuario) ----------
+build/
+dist/
+*.spec
+*.exe
+
+# ---------- Secretos y configuración local (por precaución) ----------
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+secrets.*
+credentials.*
+
+# ---------- Archivos sueltos que no son parte del código ----------
+*.zip
+*.log
+*.bak
+
+# ---------- IDEs y sistema operativo ----------
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
