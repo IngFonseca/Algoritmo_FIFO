@@ -59,6 +59,11 @@ La simulación avanza por *ticks* de 1 segundo simulado. En cada tick, en este o
 
 No requiere librerías externas.
 
+## Descarga
+
+Si solo quieres usar el simulador, descarga el ejecutable desde la sección
+[Releases](https://github.com/IngFonseca/Algoritmo_FIFO/releases) (Windows, no requiere Python).
+
 ## Instalación
 
 1. Clona el repositorio:
